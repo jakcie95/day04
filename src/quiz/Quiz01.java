@@ -8,23 +8,23 @@ public class Quiz01 {
 		/*
 		while (true)
 		{
-			System.out.println("½ÇÇà");
+			System.out.println("ì‹¤í–‰");
 		}
 		*/	
 		/*
 		while(true) {
 		Scanner sc = new Scanner(System.in);
 		int date;
-		System.out.println("³¯Â¥ ÀÔ·Â");
+		System.out.println("ë‚ ì§œ ì…ë ¥");
 		date = sc.nextInt();
 		switch(date%7) {
-		case 1:System.out.println(date + ": ¿ù¿äÀÏ");break;
-		case 2:System.out.println(date + ": È­¿äÀÏ");break;
-		case 3:System.out.println(date + ": ¼ö¿äÀÏ");break;
-		case 4:System.out.println(date + ": ¸ñ¿äÀÏ");break;
-		case 5:System.out.println(date + ": ±İ¿äÀÏ");break;
-		case 6:System.out.println(date + ": Åä¿äÀÏ");break;
-		case 0:System.out.println(date + ": ÀÏ¿äÀÏ");break;
+		case 1:System.out.println(date + ": ì›”ìš”ì¼");break;
+		case 2:System.out.println(date + ": í™”ìš”ì¼");break;
+		case 3:System.out.println(date + ": ìˆ˜ìš”ì¼");break;
+		case 4:System.out.println(date + ": ëª©ìš”ì¼");break;
+		case 5:System.out.println(date + ": ê¸ˆìš”ì¼");break;
+		case 6:System.out.println(date + ": í† ìš”ì¼");break;
+		case 0:System.out.println(date + ": ì¼ìš”ì¼");break;
 		}
 		}
 	*/

@@ -8,31 +8,31 @@ public class Ex01 {
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		int select;
-		System.out.println("¼ö ÀÔ·Â ");
+		System.out.println("ìˆ˜ ì…ë ¥ ");
 		select = sc.nextInt();
 		switch(select) {
-		case 1:System.out.println("1ÀÔ·Â");break;
-		case 2:System.out.println("2ÀÔ·Â");break;
-		case 3:System.out.println("3ÀÔ·Â");break;
-		default:System.out.println("±× ¿ÜÀÇ °ª ÀÔ·Â");
+		case 1:System.out.println("1ì…ë ¥");break;
+		case 2:System.out.println("2ì…ë ¥");break;
+		case 3:System.out.println("3ì…ë ¥");break;
+		default:System.out.println("ê·¸ ì™¸ì˜ ê°’ ì…ë ¥");
 		}
 		char ch;
-		System.out.println("¹®ÀÚ ÀÔ·Â");
-		ch = (char)System.in.read();// ¹®ÀÚÇÏ³ª¸¦ ÀÔ·Â¹Ş´Â ¸Ş¼Òµå (throws IOExceptionÀ¸·Î ¿¹¿ÜÃ³¸® ÇÊ¿ä)
+		System.out.println("ë¬¸ì ì…ë ¥");
+		ch = (char)System.in.read();// ë¬¸ìí•˜ë‚˜ë¥¼ ì…ë ¥ë°›ëŠ” ë©”ì†Œë“œ (throws IOExceptionìœ¼ë¡œ ì˜ˆì™¸ì²˜ë¦¬ í•„ìš”)
 		switch(ch) {
-		case 'a' : System.out.println("aÀÔ·Â");break;
-		case 'A' : System.out.println("AÀÔ·Â");//´ÙÀ½¿¡ ½ÇÇàµÈ ¹®ÀåÀÌ ¾øÀ»¶© break »ı·« °¡´É
+		case 'a' : System.out.println("aì…ë ¥");break;
+		case 'A' : System.out.println("Aì…ë ¥");//ë‹¤ìŒì— ì‹¤í–‰ëœ ë¬¸ì¥ì´ ì—†ì„ë• break ìƒëµ ê°€ëŠ¥
 		}
 		
 		String s;
-		System.out.println("¹®ÀÚ¿­ ÀÔ·Â");
+		System.out.println("ë¬¸ìì—´ ì…ë ¥");
 		s = sc.next();
 		switch(s) {
-		case "¾È³ç" : System.out.println("¾È³ç ÀÔ·Â");break;
-		case "±×·¡" : System.out.println("±×·¡ ÀÔ·Â");break;
+		case "ì•ˆë…•" : System.out.println("ì•ˆë…• ì…ë ¥");break;
+		case "ê·¸ë˜" : System.out.println("ê·¸ë˜ ì…ë ¥");break;
 		}
 		
 	
-		System.out.println("´ÙÀ½ ¹®Àåµé ½ÇÇà");
+		System.out.println("ë‹¤ìŒ ë¬¸ì¥ë“¤ ì‹¤í–‰");
 }
 }

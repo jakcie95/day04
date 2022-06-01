@@ -9,25 +9,25 @@ public class Quiz02 {
 		String home =null, office =null;
 		int num;
 		while(true) {
-			System.out.println("1.¿ì¸®Áı µî·Ï");
-			System.out.println("2.È¸»ç µî·Ï");
-			System.out.println("3.µî·Ï º¸±â");
+			System.out.println("1.ìš°ë¦¬ì§‘ ë“±ë¡");
+			System.out.println("2.íšŒì‚¬ ë“±ë¡");
+			System.out.println("3.ë“±ë¡ ë³´ê¸°");
 			num = sc.nextInt();
 			switch(num) {
 			case 1:
-				System.out.println("ÁıÁÖ¼Ò ÀÔ·Â");
+				System.out.println("ì§‘ì£¼ì†Œ ì…ë ¥");
 				home = sc.next();
 				break;
 			case 2:
-				System.out.println("È¸»ç ÁÖ¼Ò ÀÔ·Â");
+				System.out.println("íšŒì‚¬ ì£¼ì†Œ ì…ë ¥");
 				office = sc.next();
 				break;
 			case 3:
 				if(home != null && office != null) {
-					System.out.println("¿ì¸®Áı : " + home);
-					System.out.println("È¸»ç : " + office);
+					System.out.println("ìš°ë¦¬ì§‘ : " + home);
+					System.out.println("íšŒì‚¬ : " + office);
 				}else {
-					System.out.println("µî·Ï¸ÕÀú ÇÏ¼¼¿ä");
+					System.out.println("ë“±ë¡ë¨¼ì € í•˜ì„¸ìš”");
 				}
 				break;
 			}
